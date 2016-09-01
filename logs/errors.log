@@ -1,0 +1,765 @@
+{
+  "level": "error",
+  "message": "middlewareError",
+  "meta": {
+    "date": "Wed Aug 31 2016 16:39:56 GMT-0700 (Pacific Daylight Time)",
+    "process": {
+      "pid": 5824,
+      "uid": null,
+      "gid": null,
+      "cwd": "C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API",
+      "execPath": "C:\\Program Files\\nodejs\\node.exe",
+      "version": "v4.4.7",
+      "argv": [
+        "C:\\Program Files\\nodejs\\node.exe",
+        "C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\server"
+      ],
+      "memoryUsage": {
+        "rss": 33116160,
+        "heapTotal": 19780432,
+        "heapUsed": 13061232
+      }
+    },
+    "os": {
+      "loadavg": [
+        0,
+        0,
+        0
+      ],
+      "uptime": 26430.4218151
+    },
+    "trace": [
+      {
+        "column": 17,
+        "file": "API\\server.js",
+        "function": "C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 32,
+        "method": null,
+        "native": false
+      },
+      {
+        "column": 5,
+        "file": "API\\node_modules\\express\\lib\\router\\layer.js",
+        "function": "Layer.handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 95,
+        "method": "handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "native": false
+      },
+      {
+        "column": 13,
+        "file": "API\\node_modules\\express\\lib\\router\\route.js",
+        "function": "next (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 131,
+        "method": null,
+        "native": false
+      },
+      {
+        "column": 3,
+        "file": "API\\node_modules\\express\\lib\\router\\route.js",
+        "function": "Route.dispatch (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 112,
+        "method": "dispatch (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "native": false
+      },
+      {
+        "column": 5,
+        "file": "API\\node_modules\\express\\lib\\router\\layer.js",
+        "function": "Layer.handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 95,
+        "method": "handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "native": false
+      },
+      {
+        "column": 22,
+        "file": "API\\node_modules\\express\\lib\\router\\index.js",
+        "function": "C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 277,
+        "method": null,
+        "native": false
+      },
+      {
+        "column": 12,
+        "file": "API\\node_modules\\express\\lib\\router\\index.js",
+        "function": "Function.process_params (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 330,
+        "method": "process_params (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "native": false
+      },
+      {
+        "column": 10,
+        "file": "API\\node_modules\\express\\lib\\router\\index.js",
+        "function": "next (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 271,
+        "method": null,
+        "native": false
+      },
+      {
+        "column": 3,
+        "file": "API\\node_modules\\express\\lib\\router\\index.js",
+        "function": "Function.handle (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 176,
+        "method": "handle (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "native": false
+      },
+      {
+        "column": 12,
+        "file": "API\\node_modules\\express\\lib\\router\\index.js",
+        "function": "router (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 46,
+        "method": null,
+        "native": false
+      }
+    ],
+    "stack": [
+      "Error: OOPS..Something wrong happened",
+      "    at C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\server.js:32:17",
+      "    at Layer.handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\layer.js:95:5)",
+      "    at next (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\route.js:131:13)",
+      "    at Route.dispatch (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\route.js:112:3)",
+      "    at Layer.handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\layer.js:95:5)",
+      "    at C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\index.js:277:22",
+      "    at Function.process_params (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\index.js:330:12)",
+      "    at next (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\index.js:271:10)",
+      "    at Function.handle (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\index.js:176:3)",
+      "    at router (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\index.js:46:12)"
+    ],
+    "req": {
+      "url": "/error",
+      "headers": {
+        "host": "localhost:8080",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, sdch",
+        "accept-language": "en-US,en;q=0.8"
+      },
+      "method": "GET",
+      "httpVersion": "1.1",
+      "originalUrl": "/error",
+      "query": {}
+    }
+  },
+  "json": false,
+  "logstash": false,
+  "colorize": true,
+  "prettyPrint": true,
+  "timestamp": true,
+  "showLevel": true,
+  "label": null,
+  "depth": null,
+  "humanReadableUnhandledException": false
+}
+{
+  "level": "error",
+  "message": "middlewareError",
+  "meta": {
+    "date": "Wed Aug 31 2016 16:40:25 GMT-0700 (Pacific Daylight Time)",
+    "process": {
+      "pid": 4876,
+      "uid": null,
+      "gid": null,
+      "cwd": "C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API",
+      "execPath": "C:\\Program Files\\nodejs\\node.exe",
+      "version": "v4.4.7",
+      "argv": [
+        "C:\\Program Files\\nodejs\\node.exe",
+        "C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\server"
+      ],
+      "memoryUsage": {
+        "rss": 33001472,
+        "heapTotal": 19780432,
+        "heapUsed": 13031912
+      }
+    },
+    "os": {
+      "loadavg": [
+        0,
+        0,
+        0
+      ],
+      "uptime": 26458.9496676
+    },
+    "trace": [
+      {
+        "column": 17,
+        "file": "API\\server.js",
+        "function": "C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 32,
+        "method": null,
+        "native": false
+      },
+      {
+        "column": 5,
+        "file": "API\\node_modules\\express\\lib\\router\\layer.js",
+        "function": "Layer.handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 95,
+        "method": "handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "native": false
+      },
+      {
+        "column": 13,
+        "file": "API\\node_modules\\express\\lib\\router\\route.js",
+        "function": "next (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 131,
+        "method": null,
+        "native": false
+      },
+      {
+        "column": 3,
+        "file": "API\\node_modules\\express\\lib\\router\\route.js",
+        "function": "Route.dispatch (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 112,
+        "method": "dispatch (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "native": false
+      },
+      {
+        "column": 5,
+        "file": "API\\node_modules\\express\\lib\\router\\layer.js",
+        "function": "Layer.handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 95,
+        "method": "handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "native": false
+      },
+      {
+        "column": 22,
+        "file": "API\\node_modules\\express\\lib\\router\\index.js",
+        "function": "C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 277,
+        "method": null,
+        "native": false
+      },
+      {
+        "column": 12,
+        "file": "API\\node_modules\\express\\lib\\router\\index.js",
+        "function": "Function.process_params (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 330,
+        "method": "process_params (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "native": false
+      },
+      {
+        "column": 10,
+        "file": "API\\node_modules\\express\\lib\\router\\index.js",
+        "function": "next (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 271,
+        "method": null,
+        "native": false
+      },
+      {
+        "column": 3,
+        "file": "API\\node_modules\\express\\lib\\router\\index.js",
+        "function": "Function.handle (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 176,
+        "method": "handle (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "native": false
+      },
+      {
+        "column": 12,
+        "file": "API\\node_modules\\express\\lib\\router\\index.js",
+        "function": "router (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 46,
+        "method": null,
+        "native": false
+      }
+    ],
+    "stack": [
+      "Error: OOPS..Something wrong happened",
+      "    at C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\server.js:32:17",
+      "    at Layer.handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\layer.js:95:5)",
+      "    at next (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\route.js:131:13)",
+      "    at Route.dispatch (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\route.js:112:3)",
+      "    at Layer.handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\layer.js:95:5)",
+      "    at C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\index.js:277:22",
+      "    at Function.process_params (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\index.js:330:12)",
+      "    at next (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\index.js:271:10)",
+      "    at Function.handle (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\index.js:176:3)",
+      "    at router (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\index.js:46:12)"
+    ],
+    "req": {
+      "url": "/error",
+      "headers": {
+        "host": "localhost:8080",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, sdch",
+        "accept-language": "en-US,en;q=0.8"
+      },
+      "method": "GET",
+      "httpVersion": "1.1",
+      "originalUrl": "/error",
+      "query": {}
+    }
+  },
+  "json": false,
+  "logstash": false,
+  "colorize": true,
+  "prettyPrint": false,
+  "timestamp": true,
+  "showLevel": true,
+  "label": null,
+  "depth": null,
+  "humanReadableUnhandledException": false
+}
+{
+  "level": "error",
+  "message": "middlewareError",
+  "meta": {
+    "date": "Wed Aug 31 2016 16:41:03 GMT-0700 (Pacific Daylight Time)",
+    "process": {
+      "pid": 4948,
+      "uid": null,
+      "gid": null,
+      "cwd": "C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API",
+      "execPath": "C:\\Program Files\\nodejs\\node.exe",
+      "version": "v4.4.7",
+      "argv": [
+        "C:\\Program Files\\nodejs\\node.exe",
+        "C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\server"
+      ],
+      "memoryUsage": {
+        "rss": 33058816,
+        "heapTotal": 19780432,
+        "heapUsed": 13015832
+      }
+    },
+    "os": {
+      "loadavg": [
+        0,
+        0,
+        0
+      ],
+      "uptime": 26497.1794902
+    },
+    "trace": [
+      {
+        "column": 17,
+        "file": "API\\server.js",
+        "function": "C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 32,
+        "method": null,
+        "native": false
+      },
+      {
+        "column": 5,
+        "file": "API\\node_modules\\express\\lib\\router\\layer.js",
+        "function": "Layer.handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 95,
+        "method": "handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "native": false
+      },
+      {
+        "column": 13,
+        "file": "API\\node_modules\\express\\lib\\router\\route.js",
+        "function": "next (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 131,
+        "method": null,
+        "native": false
+      },
+      {
+        "column": 3,
+        "file": "API\\node_modules\\express\\lib\\router\\route.js",
+        "function": "Route.dispatch (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 112,
+        "method": "dispatch (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "native": false
+      },
+      {
+        "column": 5,
+        "file": "API\\node_modules\\express\\lib\\router\\layer.js",
+        "function": "Layer.handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 95,
+        "method": "handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "native": false
+      },
+      {
+        "column": 22,
+        "file": "API\\node_modules\\express\\lib\\router\\index.js",
+        "function": "C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 277,
+        "method": null,
+        "native": false
+      },
+      {
+        "column": 12,
+        "file": "API\\node_modules\\express\\lib\\router\\index.js",
+        "function": "Function.process_params (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 330,
+        "method": "process_params (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "native": false
+      },
+      {
+        "column": 10,
+        "file": "API\\node_modules\\express\\lib\\router\\index.js",
+        "function": "next (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 271,
+        "method": null,
+        "native": false
+      },
+      {
+        "column": 3,
+        "file": "API\\node_modules\\express\\lib\\router\\index.js",
+        "function": "Function.handle (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 176,
+        "method": "handle (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "native": false
+      },
+      {
+        "column": 12,
+        "file": "API\\node_modules\\express\\lib\\router\\index.js",
+        "function": "router (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 46,
+        "method": null,
+        "native": false
+      }
+    ],
+    "stack": [
+      "Error: OOPS..Something wrong happened",
+      "    at C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\server.js:32:17",
+      "    at Layer.handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\layer.js:95:5)",
+      "    at next (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\route.js:131:13)",
+      "    at Route.dispatch (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\route.js:112:3)",
+      "    at Layer.handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\layer.js:95:5)",
+      "    at C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\index.js:277:22",
+      "    at Function.process_params (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\index.js:330:12)",
+      "    at next (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\index.js:271:10)",
+      "    at Function.handle (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\index.js:176:3)",
+      "    at router (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\index.js:46:12)"
+    ],
+    "req": {
+      "url": "/error",
+      "headers": {
+        "host": "localhost:8080",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, sdch",
+        "accept-language": "en-US,en;q=0.8"
+      },
+      "method": "GET",
+      "httpVersion": "1.1",
+      "originalUrl": "/error",
+      "query": {}
+    }
+  },
+  "json": false,
+  "logstash": false,
+  "colorize": true,
+  "prettyPrint": false,
+  "timestamp": true,
+  "showLevel": true,
+  "label": null,
+  "depth": null,
+  "humanReadableUnhandledException": false
+}
+{
+  "level": "error",
+  "message": "middlewareError",
+  "meta": {
+    "date": "Wed Aug 31 2016 16:41:44 GMT-0700 (Pacific Daylight Time)",
+    "process": {
+      "pid": 3152,
+      "uid": null,
+      "gid": null,
+      "cwd": "C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API",
+      "execPath": "C:\\Program Files\\nodejs\\node.exe",
+      "version": "v4.4.7",
+      "argv": [
+        "C:\\Program Files\\nodejs\\node.exe",
+        "C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\server"
+      ],
+      "memoryUsage": {
+        "rss": 33103872,
+        "heapTotal": 19780432,
+        "heapUsed": 13059912
+      }
+    },
+    "os": {
+      "loadavg": [
+        0,
+        0,
+        0
+      ],
+      "uptime": 26538.2826001
+    },
+    "trace": [
+      {
+        "column": 17,
+        "file": "API\\server.js",
+        "function": "C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 32,
+        "method": null,
+        "native": false
+      },
+      {
+        "column": 5,
+        "file": "API\\node_modules\\express\\lib\\router\\layer.js",
+        "function": "Layer.handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 95,
+        "method": "handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "native": false
+      },
+      {
+        "column": 13,
+        "file": "API\\node_modules\\express\\lib\\router\\route.js",
+        "function": "next (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 131,
+        "method": null,
+        "native": false
+      },
+      {
+        "column": 3,
+        "file": "API\\node_modules\\express\\lib\\router\\route.js",
+        "function": "Route.dispatch (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 112,
+        "method": "dispatch (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "native": false
+      },
+      {
+        "column": 5,
+        "file": "API\\node_modules\\express\\lib\\router\\layer.js",
+        "function": "Layer.handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 95,
+        "method": "handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "native": false
+      },
+      {
+        "column": 22,
+        "file": "API\\node_modules\\express\\lib\\router\\index.js",
+        "function": "C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 277,
+        "method": null,
+        "native": false
+      },
+      {
+        "column": 12,
+        "file": "API\\node_modules\\express\\lib\\router\\index.js",
+        "function": "Function.process_params (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 330,
+        "method": "process_params (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "native": false
+      },
+      {
+        "column": 10,
+        "file": "API\\node_modules\\express\\lib\\router\\index.js",
+        "function": "next (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 271,
+        "method": null,
+        "native": false
+      },
+      {
+        "column": 3,
+        "file": "API\\node_modules\\express\\lib\\router\\index.js",
+        "function": "Function.handle (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 176,
+        "method": "handle (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "native": false
+      },
+      {
+        "column": 12,
+        "file": "API\\node_modules\\express\\lib\\router\\index.js",
+        "function": "router (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 46,
+        "method": null,
+        "native": false
+      }
+    ],
+    "stack": [
+      "Error: OOPS..Something wrong happened",
+      "    at C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\server.js:32:17",
+      "    at Layer.handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\layer.js:95:5)",
+      "    at next (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\route.js:131:13)",
+      "    at Route.dispatch (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\route.js:112:3)",
+      "    at Layer.handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\layer.js:95:5)",
+      "    at C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\index.js:277:22",
+      "    at Function.process_params (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\index.js:330:12)",
+      "    at next (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\index.js:271:10)",
+      "    at Function.handle (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\index.js:176:3)",
+      "    at router (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\index.js:46:12)"
+    ],
+    "req": {
+      "url": "/error",
+      "headers": {
+        "host": "localhost:8080",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, sdch",
+        "accept-language": "en-US,en;q=0.8"
+      },
+      "method": "GET",
+      "httpVersion": "1.1",
+      "originalUrl": "/error",
+      "query": {}
+    }
+  },
+  "json": false,
+  "logstash": false,
+  "colorize": true,
+  "prettyPrint": false,
+  "timestamp": true,
+  "showLevel": true,
+  "label": null,
+  "depth": null,
+  "humanReadableUnhandledException": false
+}
+{
+  "level": "error",
+  "message": "middlewareError",
+  "meta": {
+    "date": "Wed Aug 31 2016 16:42:05 GMT-0700 (Pacific Daylight Time)",
+    "process": {
+      "pid": 6944,
+      "uid": null,
+      "gid": null,
+      "cwd": "C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API",
+      "execPath": "C:\\Program Files\\nodejs\\node.exe",
+      "version": "v4.4.7",
+      "argv": [
+        "C:\\Program Files\\nodejs\\node.exe",
+        "C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\server"
+      ],
+      "memoryUsage": {
+        "rss": 33193984,
+        "heapTotal": 19780432,
+        "heapUsed": 13036944
+      }
+    },
+    "os": {
+      "loadavg": [
+        0,
+        0,
+        0
+      ],
+      "uptime": 26559.1056822
+    },
+    "trace": [
+      {
+        "column": 17,
+        "file": "API\\server.js",
+        "function": "C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 32,
+        "method": null,
+        "native": false
+      },
+      {
+        "column": 5,
+        "file": "API\\node_modules\\express\\lib\\router\\layer.js",
+        "function": "Layer.handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 95,
+        "method": "handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "native": false
+      },
+      {
+        "column": 13,
+        "file": "API\\node_modules\\express\\lib\\router\\route.js",
+        "function": "next (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 131,
+        "method": null,
+        "native": false
+      },
+      {
+        "column": 3,
+        "file": "API\\node_modules\\express\\lib\\router\\route.js",
+        "function": "Route.dispatch (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 112,
+        "method": "dispatch (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "native": false
+      },
+      {
+        "column": 5,
+        "file": "API\\node_modules\\express\\lib\\router\\layer.js",
+        "function": "Layer.handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 95,
+        "method": "handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "native": false
+      },
+      {
+        "column": 22,
+        "file": "API\\node_modules\\express\\lib\\router\\index.js",
+        "function": "C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 277,
+        "method": null,
+        "native": false
+      },
+      {
+        "column": 12,
+        "file": "API\\node_modules\\express\\lib\\router\\index.js",
+        "function": "Function.process_params (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 330,
+        "method": "process_params (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "native": false
+      },
+      {
+        "column": 10,
+        "file": "API\\node_modules\\express\\lib\\router\\index.js",
+        "function": "next (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 271,
+        "method": null,
+        "native": false
+      },
+      {
+        "column": 3,
+        "file": "API\\node_modules\\express\\lib\\router\\index.js",
+        "function": "Function.handle (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 176,
+        "method": "handle (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "native": false
+      },
+      {
+        "column": 12,
+        "file": "API\\node_modules\\express\\lib\\router\\index.js",
+        "function": "router (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging",
+        "line": 46,
+        "method": null,
+        "native": false
+      }
+    ],
+    "stack": [
+      "Error: OOPS..Something wrong happened",
+      "    at C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\server.js:32:17",
+      "    at Layer.handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\layer.js:95:5)",
+      "    at next (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\route.js:131:13)",
+      "    at Route.dispatch (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\route.js:112:3)",
+      "    at Layer.handle [as handle_request] (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\layer.js:95:5)",
+      "    at C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\index.js:277:22",
+      "    at Function.process_params (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\index.js:330:12)",
+      "    at next (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\index.js:271:10)",
+      "    at Function.handle (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\index.js:176:3)",
+      "    at router (C:\\Srinidhi\\Office\\Shangri La\\Bit Bucket\\Logging API\\node_modules\\express\\lib\\router\\index.js:46:12)"
+    ],
+    "req": {
+      "url": "/error",
+      "headers": {
+        "host": "localhost:8080",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, sdch",
+        "accept-language": "en-US,en;q=0.8"
+      },
+      "method": "GET",
+      "httpVersion": "1.1",
+      "originalUrl": "/error",
+      "query": {}
+    }
+  },
+  "json": false,
+  "logstash": false,
+  "colorize": true,
+  "prettyPrint": false,
+  "timestamp": true,
+  "showLevel": true,
+  "label": null,
+  "depth": null,
+  "humanReadableUnhandledException": false
+}

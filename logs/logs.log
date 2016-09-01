@@ -1,0 +1,30 @@
+{"level":"info","message":"Info","timestamp":"2016-08-31T22:54:15.006Z"}
+{"level":"warn","message":"Warn","timestamp":"2016-08-31T22:54:15.009Z"}
+{"level":"error","message":"Error","timestamp":"2016-08-31T22:54:15.009Z"}
+{"level":"info","message":"log with info","timestamp":"2016-08-31T22:54:15.010Z"}
+{"level":"warn","message":"log with warn","timestamp":"2016-08-31T22:54:15.010Z"}
+{"level":"error","message":"log with error","timestamp":"2016-08-31T22:54:15.010Z"}
+{"level":"info","message":"Info","timestamp":"2016-08-31T22:55:18.934Z"}
+{"level":"warn","message":"Warn","timestamp":"2016-08-31T22:55:18.936Z"}
+{"level":"error","message":"Error","timestamp":"2016-08-31T22:55:18.936Z"}
+{"level":"info","message":"log with info","timestamp":"2016-08-31T22:55:18.937Z"}
+{"level":"warn","message":"log with warn","timestamp":"2016-08-31T22:55:18.937Z"}
+{"level":"error","message":"log with error","timestamp":"2016-08-31T22:55:18.937Z"}
+{"level":"info","message":"Info","timestamp":"2016-08-31T22:57:01.659Z"}
+{"level":"warn","message":"Warn","timestamp":"2016-08-31T22:57:01.659Z"}
+{"level":"error","message":"Error","timestamp":"2016-08-31T22:57:01.659Z"}
+{"level":"info","message":"log with info","timestamp":"2016-08-31T22:57:01.660Z"}
+{"level":"warn","message":"log with warn","timestamp":"2016-08-31T22:57:01.660Z"}
+{"level":"error","message":"log with error","timestamp":"2016-08-31T22:57:01.660Z"}
+{"level":"info","message":"Info","timestamp":"2016-08-31T23:00:06.681Z"}
+{"level":"warn","message":"Warn","timestamp":"2016-08-31T23:00:06.683Z"}
+{"level":"error","message":"Error","timestamp":"2016-08-31T23:00:06.684Z"}
+{"level":"info","message":"log with info","timestamp":"2016-08-31T23:00:06.684Z"}
+{"level":"warn","message":"log with warn","timestamp":"2016-08-31T23:00:06.684Z"}
+{"level":"error","message":"log with error","timestamp":"2016-08-31T23:00:06.684Z"}
+{"level":"info","message":"Info","timestamp":"2016-08-31T23:32:45.348Z"}
+{"level":"warn","message":"Warn","timestamp":"2016-08-31T23:32:45.351Z"}
+{"level":"error","message":"Error","timestamp":"2016-08-31T23:32:45.351Z"}
+{"level":"info","message":"log with info","timestamp":"2016-08-31T23:32:45.351Z"}
+{"level":"warn","message":"log with warn","timestamp":"2016-08-31T23:32:45.351Z"}
+{"level":"error","message":"log with error","timestamp":"2016-08-31T23:32:45.352Z"}

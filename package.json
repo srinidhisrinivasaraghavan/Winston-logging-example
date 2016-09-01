@@ -1,0 +1,19 @@
+{
+  "name": "logging_api",
+  "version": "1.0.0",
+  "description": "set of api endpoints for logging",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "logging"
+  ],
+  "author": "Srinidhi S",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-winston": "^2.0.0",
+    "winston": "^2.2.0"
+  }
+}
